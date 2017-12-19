@@ -881,7 +881,6 @@ GameObject:
   - component: {fileID: 448591002}
   - component: {fileID: 448591004}
   - component: {fileID: 448591003}
-  - component: {fileID: 448591005}
   m_Layer: 5
   m_Name: Event System
   m_TagString: Untagged
@@ -934,17 +933,6 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 15
---- !u!114 &448591005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 448591001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4af9cb1558864479a870dec86e4f13e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &551293658
 GameObject:
   m_ObjectHideFlags: 0
