@@ -11,7 +11,7 @@ public class SCR_Monster : MonoBehaviour, IDamageable {
 	public bool isActive = true;
 
 	protected void Update() {
-		if (health == 0 && isActive) {
+		if (health <= 0 && isActive) {
 			isActive = false;
 			GetComponent<SpriteRenderer>()
 				.DOFade(0, 0.2f)
