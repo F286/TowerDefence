@@ -6,7 +6,7 @@ public class SCR_FindArea : MonoBehaviour {
 	public List<Collider2D> overlap;
 
 	protected void OnTriggerEnter2D(Collider2D other) {
-		overlap.Add(other);
+		overlap.Insert(0, other);
 	}
 	protected void OnTriggerExit2D(Collider2D other) {
 		overlap.Remove(other);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [SelectionBase]
+[RequireComponent(typeof(Rigidbody2D))]
 public class SCR_Tower : MonoBehaviour {
 	[Header("Customizable")]
 	public float shootRate = 0.5f;
@@ -24,8 +25,7 @@ public class SCR_Tower : MonoBehaviour {
 			Time.time > lastShootTime + shootRate) {
 			lastShootTime = Time.time;
 			
-			var create = GameObject.Instantiate(bullet.gameObject, this.centerOfMass(), Quaternion.identity);
-			create.transform.SetParent(transform.parent);
+			var create = GameObject.Instantiate(bullet.gameObject, this.centerOfMass(), Quaternion.identity, transform.parent);
 			create.gameObject.SetActive(true);
 			Vector2 direction = findArea.overlap[0].centerOfMass() - 
 													this.centerOfMass();
