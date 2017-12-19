@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class SCR_Bullet : MonoBehaviour {
 	[Header("Customizable")]
@@ -17,7 +18,10 @@ public class SCR_Bullet : MonoBehaviour {
 		if (isActive) {
 			isActive = false;
 			other.collider.attachedRigidbody.SendMessage("Damage", damage);
-			Destroy(gameObject, 1f);
+			GetComponent<SpriteRenderer>()
+				.DOFade(0, 0.2f)
+				.SetDelay(0.4f) 
+				.OnComplete(() => Destroy(gameObject));
 		}
 	}
 }
