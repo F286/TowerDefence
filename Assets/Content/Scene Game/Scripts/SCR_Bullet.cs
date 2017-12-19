@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SCR_Bullet : MonoBehaviour {
+	public float damage;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	protected void OnCollisionEnter2D(Collision2D other) {
+		other.collider.attachedRigidbody.SendMessage("Damage", damage);
+		Destroy(gameObject);
 	}
 }
