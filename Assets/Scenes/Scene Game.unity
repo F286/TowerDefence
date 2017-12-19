@@ -927,12 +927,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 448591001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: b050f99d309e84b079c3df2255f832db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
-  m_DragThreshold: 15
+  m_DragThreshold: 5
 --- !u!1 &551293658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,6 +1291,7 @@ GameObject:
   - component: {fileID: 703297588}
   - component: {fileID: 703297587}
   - component: {fileID: 703297591}
+  - component: {fileID: 703297592}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1372,6 +1373,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4af9cb1558864479a870dec86e4f13e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &703297592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 703297586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1690312454, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &728099015
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,7 +2315,7 @@ RectTransform:
   m_Children:
   - {fileID: 193094144}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3505,7 +3521,7 @@ Transform:
   - {fileID: 1435484366}
   - {fileID: 1369950480}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1795935494
 MonoBehaviour:

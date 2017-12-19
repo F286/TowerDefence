@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [SelectionBase]
 [RequireComponent(typeof(Rigidbody2D))]
-public class SCR_Tower : MonoBehaviour {
+public class SCR_Tower : MonoBehaviour, IPointerClickHandler {
 	[Header("Customizable")]
 	public float shootRate = 0.5f;
 	public float shootSpeed = 1f;
@@ -32,5 +33,8 @@ public class SCR_Tower : MonoBehaviour {
 			create.GetComponent<Rigidbody2D>().velocity = direction.normalized * shootSpeed;
 			
 		}
+	}
+	public void OnPointerClick(PointerEventData eventData) {
+		print("click");
 	}
 }
