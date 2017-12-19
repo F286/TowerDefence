@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class CustomInputModule : BaseInputModule {
+public class CORE_EventSystem : EventSystem {
 
-	public void Process() {
-		print("process");
-	}
+
 }

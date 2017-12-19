@@ -23,6 +23,7 @@ public class SCR_Spawner : MonoBehaviour {
 		if (Time.time > lastSpawnTime + rate) {
 			lastSpawnTime = Time.time;
 			
+			// Copy the template
 			var create = GameObject.Instantiate(template, spawnAt.position, Quaternion.identity, transform.parent);
 			create.gameObject.SetActive(true);
 		}

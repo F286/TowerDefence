@@ -4,15 +4,15 @@ using UnityEditor;
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class SCR_SpriteManager : MonoBehaviour {
+public class CORE_SpriteManager : MonoBehaviour {
 
-	SCR_SpriteManager() {
+	CORE_SpriteManager() {
 		EditorApplication.hierarchyWindowChanged -= MyHierarchyChangedCallback;
 		EditorApplication.hierarchyWindowChanged += MyHierarchyChangedCallback;
 	}
 	
 	static void MyHierarchyChangedCallback() {
-		var sprites = GameObject.FindObjectOfType<SCR_SpriteManager>()
+		var sprites = GameObject.FindObjectOfType<CORE_SpriteManager>()
 									.GetComponentsInChildren<SpriteRenderer>();
 		var index = 0;
 		foreach (var item in sprites) {
