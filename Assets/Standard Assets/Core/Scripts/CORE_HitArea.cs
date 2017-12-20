@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 
 [DisallowMultipleComponent]
-public class SCR_HitArea : UnityEngine.UI.Graphic {
+public class CORE_HitArea : UnityEngine.UI.Graphic {
   protected override void OnPopulateMesh(VertexHelper vh) {
     vh.Clear();
   }
