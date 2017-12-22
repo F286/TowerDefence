@@ -28,9 +28,10 @@ public class SCR_Tower : MonoBehaviour {
 			
 			var create = GameObject.Instantiate(bullet.gameObject, this.CenterOfMass(), Quaternion.identity, transform.parent);
 			create.gameObject.SetActive(true);
-			Vector2 direction = findArea.overlap[0].CenterOfMass() - 
-													this.CenterOfMass();
-			create.GetComponent<Rigidbody2D>().velocity = direction.normalized * shootSpeed;
+			if (findArea.overlap[0] != null) {
+				Vector2 direction = findArea.overlap[0].CenterOfMass() - this.CenterOfMass();
+				create.GetComponent<Rigidbody2D>().velocity = direction.normalized * shootSpeed;
+			}
 			
 		}
 	}
