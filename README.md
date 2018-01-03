@@ -16,3 +16,64 @@ Prefixes are used to separate code into different areas based on it's use case.
 - CORE_ is *framework code*. It is shared between projects therefore needs to be more robust and resuable.
 - TRIGGER_ is for Triggers. A class that implements from ITrigger.
 - ACTION_ is for Actions. A class that implements IAction.
+
+# Knowledge Share for Development Process
+
+## Overview 
+
+- Important to have a good atmosphere : )
+
+- Important to have an open atmosphere. That is, an atmosphere of open conversation about how
+code is structured and ways of accomplishing tasks.
+
+## Prototyping
+
+When developing apps professionally as a general framework we create scenes in three phases. *Prototype, Build, and Polish*.
+
+1. Define the *Target Goals* for a prototype
+
+2. Prototype in Unity, exporting to the iPad. It is important to iterate, and hit all Target Goals *simultaneously*. *Test with kids!*
+
+3. Build the app based on the prototype. *Test with kids!*
+
+4. Polish the app, tweaking the graphics, interactions and minor bugs once we have a releasable app.
+
+## Best Practices
+
+### You can drag a prefab into a scene, and it just works.
+
+Easier to test in Editor, a prefab can be tested by simply
+dragging it into the scene.
+
+- Simplifies object creation - GameObject.Instantiate() just works!
+
+- Easier for code to work with *Edit and Continue*, where I can
+rapidly iterate by editing code while the Editor is in Play Mode.
+
+### Content can be created and edited in the Unity Editor without code
+
+- Allows Designers to work in the Unity Editor directly
+
+- Allows Designers to be productive with less back and forth with
+Programmers
+
+- Easier to scale content creation to a large project
+
+- Most data is stored on prefabs as public fields
+
+- *Example:* An Designer can create a new Block from scratch by
+creating a prefab, and create the graphics for it without back
+and forth with a programmer
+
+### Leverage Unity, go with the grain
+
+- Public fields in the Unity Inspector should be used to hook up
+references between objects. This is easy to inspect and debug.
+
+- All object state should be viewable though the inspector, you
+can then click on GameObjects while in Play Mode and debug
+and experiment easily. There are tricks such as using
+[Serializable] structs which allow for inspectable sub-objects.
+
+- Unity’s built-in functionality is very consistent across platforms,
+so it will lead to less bugs when targeting new platforms.
