@@ -96,4 +96,4 @@ will lead to more bugs and is harder to maintain
 
 ### Final Thoughts
 
-- It is important to not get too attached to a specific way of doing things. Try and investigate new ways of doing things. Try embracing Unity to start, then feel free to modify from there.
+- It is important to not get too attached to a specific way of doing things. Try embracing Unity to start, then feel free to modify from there.
