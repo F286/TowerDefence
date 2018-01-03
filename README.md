@@ -92,7 +92,7 @@ Android native functionality)
 - Keep number of lines of code as few as possible, as more code
 will lead to more bugs and is harder to maintain
 
-- Don’t over structure code. It’s good to keep state as public fields.
+- Don’t over structure code. It’s good to keep state as public fields so they can be viewable from the inspector.
 
 ## Conclusion
 
