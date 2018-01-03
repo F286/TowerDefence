@@ -17,9 +17,7 @@ Prefixes are used to separate code into different areas based on it's use case.
 - TRIGGER_ is for Triggers. A class that implements from ITrigger.
 - ACTION_ is for Actions. A class that implements IAction.
 
-# Development Process
-
-## Overview 
+## Leadership
 
 - Important to have a good atmosphere : )
 
