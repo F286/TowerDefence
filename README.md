@@ -94,6 +94,6 @@ will lead to more bugs and is harder to maintain
 
 - Don’t over structure code. It’s good to keep state as public fields.
 
-## Takeaways
+## Call to Learn
 
 It is important to not get too attached to a specific way of doing things. *Try embracing Unity to start*, then feel free to modify from there. Think of all the time we could save, then you could do the things that you want to.
