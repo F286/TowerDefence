@@ -28,7 +28,7 @@ code is structured and ways of accomplishing tasks.
 
 ## Prototyping
 
-When developing apps professionally as a general framework we create scenes in three phases. *Prototype, Build, and Polish*.
+When developing apps professionally as general guidelines we do things in three phases. *Prototype, Build, and Polish*.
 
 1. Define the *Target Goals* for a prototype
 
