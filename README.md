@@ -17,7 +17,7 @@ Prefixes are used to separate code into different areas based on it's use case.
 - TRIGGER_ is for Triggers. A class that implements from ITrigger.
 - ACTION_ is for Actions. A class that implements IAction.
 
-# Knowledge Share for Development Process
+# Development Process
 
 ## Overview 
 
@@ -77,3 +77,23 @@ and experiment easily. There are tricks such as using
 
 - Unity’s built-in functionality is very consistent across platforms,
 so it will lead to less bugs when targeting new platforms.
+
+### KISS: Keep it super simple
+
+- Advanced language features such as Reflection have inconsistent
+behaviour across platforms, since the code is auto-translated,
+which can lead to bugs which occur only on device which are very
+painful.
+
+- Plugins are good if not too invasive, or there is a strong need that
+is not possible with built-in functionality (Example: DOTween,
+Android native functionality)
+
+- Keep number of lines of code as few as possible, as more code
+will lead to more bugs and is harder to maintain
+
+- Don’t over structure code. It’s good to keep state as public fields.
+
+### Final Thoughts
+
+- It is important to not get too attached to a specific way of doing things. Always try and investigate new ways of doing things in Unity. Try embracing Unity to start, then feel free to modify from there. Cheers : )
