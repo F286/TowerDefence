@@ -1,6 +1,6 @@
 # Core Framework
 
-This is the Core Framework that has evolved as I have developed Unity apps. Major features include:
+This is the approach that has evolved over the creation of several apps professionally. Areas include:
 
 - Trigger Action System
 - Folder Structure split based on modules of functionality, to allow scaling to multiple apps.
