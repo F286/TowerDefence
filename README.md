@@ -26,7 +26,7 @@ Prefixes are used to separate code into different areas based on it's use case.
 - Important to have an open atmosphere. That is, an atmosphere of open conversation about how
 code is structured and ways of accomplishing tasks.
 
-## Prototyping
+## Design
 
 When developing apps professionally as general guidelines we do things in three phases. *Prototype, Build, and Polish*.
 
@@ -94,7 +94,7 @@ will lead to more bugs and is harder to maintain
 
 - Don’t over structure code. It’s good to keep state as public fields.
 
-### Final Thoughts
+## Final Thoughts
 
 - It is important to not get too attached to a specific way of doing things. Try embracing Unity to start, then feel free to modify from there.
 - Think of all the time we could save, then you could do the things that you want to.
