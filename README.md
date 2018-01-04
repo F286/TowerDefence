@@ -96,4 +96,4 @@ will lead to more bugs and is harder to maintain
 
 ## Conclusion
 
-It is important to not get too attached to way you have coded in the past. Try embracing the Unity way of doing things to start. Think of all the time you could save, then you could do the things that you want to.
+It is important to not get too attached to way we have coded in the past. Try embracing the Unity way of doing things to start. Think of all the time you could save, then you could do the things that you want to.
