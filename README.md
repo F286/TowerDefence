@@ -26,6 +26,8 @@ Prefixes are used to separate code into different areas based on it's use case.
 - Important to have an open atmosphere. That is, an atmosphere of open conversation about how
 code is structured and ways of accomplishing tasks.
 
+- Read Extreme Ownership by Jocko Willink. 
+
 ## Design
 
 When developing apps professionally as general guidelines we do things in three phases. *Prototype, Build, and Polish*.
@@ -96,4 +98,4 @@ will lead to more bugs and is harder to maintain
 
 ## Conclusion
 
-It is important to not get too attached to way we have coded in the past. Try embracing the Unity way of doing things to start. Think of all the time you could save, then you could do the things that you want to.
+Programming Unity in this way will lead to simpler code and less bugs. This will allow you to spend your time on the fun parts of coding, instead of staying up until 2 am to fix a hard to reproduce bug that only shows up on iPad export. You will also be able to create an app 2-3 times faster, which will allow you to go to the beach instead of working weekends. Finally, the quality of the app will be highly polished and professional instead of just ok, which will directly lead to a higher salary for you.
