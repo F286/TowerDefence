@@ -98,7 +98,7 @@ will lead to more bugs and is harder to maintain
 
 ## Conclusion
 
-All of this will directly lead to less bugs, faster development, and a higher quality product. The code will be simpler, which means less bugs. This will let you focus on fun things such as making the app, instead of staying up until morning to fix an iPad specific bug. You will leverage Unity, this will let you develop at least three times faster. This means more beach time and less working weekends time. You will integrate design, which means you won't have to redo the same thing three times.<sup>1</sup> 
+All of this will directly lead to less bugs, faster development, and a higher quality product. The code will be simpler, which means less bugs. This will let you focus on fun things such as making the app, instead of staying up until morning to fix an iPad specific bug. Unity will be leveraged, this will let you develop at least three times faster. This means more beach time and less working weekends time. Design will be integrated, which means you won't have to redo the same thing three times.<sup>1</sup> 
 
 Changing your programming environment can feel like changing your religion. However, this is something we all must do! :)
 
