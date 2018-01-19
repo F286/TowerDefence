@@ -98,4 +98,6 @@ will lead to more bugs and is harder to maintain
 
 ## Conclusion
 
-Programming Unity in this way will lead to simpler code and less bugs. This will allow you to spend your time on the fun parts of coding, instead of staying up until 2 am to fix a hard to reproduce bug that only shows up on iPad export. You will also be able to create an app 2-3 times faster, which will allow you to go to the beach instead of working weekends. Finally, the quality of the app will be highly polished and professional instead of just ok, which will directly lead to a higher salary for you.
+If you embrace this, it will directly lead to less bugs, faster development, and a higher quality product. The code will be simpler, which means less bugs. This will let you focus on fun things such as making the app, instead of staying up until 2 am to fix an iPad export specific bug. You will leverage Unity, this will let you develop 2-3 times faster, perhaps you would like to go to the beach instead of working weekends? You will try to create processes to allow the team to work more effectively. (1) This will lead to a highly polished and professional app, which will lead to a higher salary for you.
+
+(1) Small increases in effectiveness will lead to exponential increases in output, since the 'rich get richer, and the poor get poorer'. Related to the Pareto Distribution. [Link](https://youtu.be/pGax4DsAadk)
