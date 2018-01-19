@@ -100,6 +100,6 @@ will lead to more bugs and is harder to maintain
 
 All of this will directly lead to less bugs, faster development, and a higher quality product. The code will be simpler, which means less bugs. This will let you focus on fun things such as making the app, instead of staying up until morning to fix an iPad specific bug. You will leverage Unity, this will let you develop at least three times faster. This means more beach time and less working weekends time. You will integrate design, which means you won't have to redo the same thing three times.<sup>1</sup> 
 
-It can be painful to learn a new environment. It can feel like changing your religion. If you voluntairly acccept this and face it, you will overcome it. And perhaps become some sort of hero. Or perhaps, learn.
+It can be painful to learn a new environment. It can feel like changing your religion. If you voluntairly acccept this you will overcome it. And perhaps become some sort of hero. Or perhaps, learn.
 
 <sup>1</sup> Relatively small increases in efficiency will lead to exponential increases in output, since the 'rich get richer, and the poor get poorer'. Related to the Pareto Distribution. [Link](https://youtu.be/-k_FfS1kHfY)
