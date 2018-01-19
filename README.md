@@ -102,4 +102,4 @@ All of this will directly lead to less bugs, faster development, and a higher qu
 
 Changing your programming environment can feel like changing your religion. However, this is something we all must do! :)
 
-<sup>1</sup> Relatively small increases in efficiency will lead to exponential increases in output, since the 'rich get richer, and the poor get poorer'. Related to the Pareto Distribution. [Link](https://youtu.be/-k_FfS1kHfY)
+<sup>1</sup> Relatively modest increases in productivity will lead to exponential increases in output, since the 'rich get richer, and the poor get poorer'. Related to the Pareto Distribution. [Link](https://youtu.be/-k_FfS1kHfY)
