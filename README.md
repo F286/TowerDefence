@@ -6,7 +6,7 @@ This is the approach that has evolved over the creation of several apps professi
 - Folder Structure split based on modules of functionality, to allow scaling to multiple apps.
 - Unified input system for menus and game, using Unity's built in EventSystems
 - Uses as many of Unity's built in solid features as possible, for example UnityEvents.
-- Contains example of an editor script to order sprites in the scene. This approach be powerful. (CORE_SpriteManager)
+- Contains example of an editor script to order sprites in the scene. This approach can be powerful. (CORE_SpriteManager)
 - Set up to avoid common issues we have run into over the last several years.
 
 ## Script naming convention
@@ -98,6 +98,6 @@ will lead to more bugs and is harder to maintain
 
 ## Conclusion
 
-If you embrace this, it will directly lead to less bugs, faster development, and a higher quality product. The code will be simpler, which means less bugs. This will let you focus on fun things such as making the app, instead of staying up until 2 am to fix an iPad export specific bug. You will leverage Unity, this will let you develop 2-3 times faster, this means you can go to the beach instead of working weekends. You will use processes to allow the team to work together more effectively(1), this will lead to a highly polished and professional app. Thanks for reading. : )
+If you embrace this, it will directly lead to less bugs, faster development, and a higher quality product. The code will be simpler, which means less bugs. This will let you focus on fun things such as making the app, instead of staying up until 2 am to fix an iPad export specific bug. You will leverage Unity, this will let you develop 2-3 times faster, this means you can go to the beach instead of working weekends. You will integrate design into the development process, which means you won't have to redo the same thing three times<sup>1</sup>. All of this will lead to a good app, which leads to many positive things. Thanks for reading. : )
 
-(1) Small increases in effectiveness will lead to exponential increases in output, since the 'rich get richer, and the poor get poorer'. Related to the Pareto Distribution. [Link](https://youtu.be/-k_FfS1kHfY)
+(1) Relatively small increases in efficiency will lead to exponential increases in output, since the 'rich get richer, and the poor get poorer'. Related to the Pareto Distribution. [Link](https://youtu.be/-k_FfS1kHfY)
