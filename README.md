@@ -26,7 +26,7 @@ Prefixes are used to separate code into different areas based on it's use case.
 - Important to have an open atmosphere. That is, an atmosphere of open conversation about how
 code is structured and ways of accomplishing tasks.
 
-- Read Extreme Ownership by Jocko Willink. 
+- Important to have ownership and responsibility. Will make work feel meaningful. Read Extreme Ownership by Jocko Willink.
 
 ## Design
 
