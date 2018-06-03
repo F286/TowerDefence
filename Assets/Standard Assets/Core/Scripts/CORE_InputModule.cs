@@ -22,14 +22,14 @@ public class CORE_InputModule : StandaloneInputModule {
     /// </summary>
     private void ProcessTouchEvents()
     {
-        for (var i = 0; i < Input.touchCount; ++i)
-        {
-            var input = Input.GetTouch(i);
+        // for (var i = 0; i < Input.touchCount; ++i)
+        // {
+        //     var input = Input.GetTouch(i);
 
-            bool released;
-            bool pressed;
-            var pointer = this.GetTouchPointerEventData(input, out pressed, out released);
-        }
+        //     bool released;
+        //     bool pressed;
+        //     var pointer = this.GetTouchPointerEventData(input, out pressed, out released);
+        // }
     }
     /// <summary>
     ///   For debugging touch-based devices using the mouse.
