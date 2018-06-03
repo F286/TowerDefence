@@ -9,8 +9,8 @@ public class Block : InjectBehaviour {
 
 	public override void Awake() {
 		base.Awake();
-		print(sceneManager);
-		print(sideScroller);
+		// print(sceneManager);
+		// print(sideScroller);
 	}
 
 }
