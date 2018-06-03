@@ -5,7 +5,7 @@ using UnityEngine;
 public class SceneManager : InjectBehaviour {
 	public string testValue;
 	
-  public static string Template() {
-		return "SceneManagerMock";
-  }
+  // public static string Template() {
+	// 	return "SceneManagerMock";
+  // }
 }
